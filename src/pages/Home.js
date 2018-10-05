@@ -31,6 +31,9 @@ export default Home;
 const SignUp = styled.h1`
   width: 80%;
   text-align: center;
+  @media (max-width: ${media.sm}) {
+    width: 100%;
+  }
 `;
 
 const Promo = styled.div`
