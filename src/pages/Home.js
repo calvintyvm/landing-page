@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import imageLogo from '../assets/images/logo.jpg';
+import media from '../styles/media';
 
 class Home extends Component {
   render() {
@@ -115,6 +116,14 @@ const Root = styled.div`
   position: relative;
   top: 50%;
   transform: translateY(8%);
+
+  @media (max-width: ${media.sm}) {
+    height: 100vh;
+    transform: none;
+    top: 0%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 `;
 
 const Ticket = styled.span`
