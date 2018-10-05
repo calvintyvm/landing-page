@@ -21,10 +21,6 @@ injectGlobal`
     background-color: #e9f1ea;
   }
 
-  body {
-    font-family: 'Roboto';
-  }
-
   a,
   button {
     outline: none;
@@ -44,4 +40,17 @@ injectGlobal`
   }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+@font-face{
+    font-family: "Lato Regular";
+    src: url('/assets/fonts-Lato-Regular.woff') format('woff'),
+  }
+  @font-face{
+    font-family: "Lato Bold";
+    src: url('/assets/fonts/Lato-Bold.woff') format('woff'),
+  }
+  @font-face{
+    font-family: "Lato Light";
+    src: url('/assets/fonts/Lato-Light.woff') format('woff'),
+  }
 `;
