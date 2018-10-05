@@ -39,7 +39,7 @@ injectGlobal`
     height: 100%;
   }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700'); */
 
 @font-face{
     font-family: "Lato Regular";
